@@ -1,8 +1,25 @@
+div {
+
+}
+
 .image-footer {
-  display: none;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.image-number {
+  color: #C3C3C4;
+}
+
+.image-caption {
+  
 }
 
 a {
+  color: #2D2D2D;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 li.octocat {
@@ -11,6 +28,7 @@ li.octocat {
 }
 
 span {
+  color: #6C6C6C;
 }
 
 img {
@@ -21,4 +39,12 @@ ul.octodex {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+ul {
+  display: none;
+}
+
+li {
+  list-style: none;
 }
