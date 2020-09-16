@@ -1,0 +1,24 @@
+.image-footer {
+  display: none;
+}
+
+a {
+}
+
+li.octocat {
+  border: 1px solid transparent;
+  border-color: #C3C3C3;
+}
+
+span {
+}
+
+img {
+  width: 300px;
+}
+
+ul.octodex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
